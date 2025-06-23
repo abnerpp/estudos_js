@@ -10,4 +10,5 @@ console.log(media);
 
 alunos.push({ nome: "Gustavo", nota: 6 });
 console.log(alunos);
+console.log(alunos);
 
