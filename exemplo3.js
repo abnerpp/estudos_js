@@ -1,0 +1,15 @@
+let maria = 2;
+let joao = 3;
+let pedro = 4;
+let ana = 5;
+let carla = 6;
+let lucas = 7;
+let roberto = 8;
+let fernanda = 9;
+let elisa = 10;
+const alunos = [maria, joao, pedro, ana, carla, lucas, roberto, fernanda, elisa];
+const aprovados = alunos.filter(alunos => alunos >= 6);
+const reprovados = alunos.filter(alunos => alunos < 6);
+console.log("Alunos:", alunos);
+console.log("Aprovados:", aprovados);
+console.log("Reprovados:", reprovados);
